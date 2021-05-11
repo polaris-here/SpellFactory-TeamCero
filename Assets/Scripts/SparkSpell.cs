@@ -4,15 +4,15 @@ using UnityEngine;
 
 namespace Magic
 {
-    public class FireSpell : MonoBehaviour, ISpell
+    public class SparkSpell : MonoBehaviour, ISpell
     {
-        private Vector3 Force = new Vector3(0f, 0, 10000f);
+        private Vector3 Force = new Vector3(10f, 10f, 0f);
 
         void ISpell.Cast(GameObject spell)
         {
             Rigidbody rb = spell.GetComponent<Rigidbody>();
             rb.useGravity = true;
-            rb.AddForce(new Vector3(10, 10, 0), ForceMode.Impulse);
+            rb.AddForce(this.Force, ForceMode.Impulse);
         }
     }
 }
