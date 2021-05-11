@@ -92,3 +92,43 @@ Received Import Request.
   path: Assets/Blackhole.shader
   artifactKey: Guid(94fc302fc90d646b99b98c5e7df94239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Blackhole.shader using Guid(94fc302fc90d646b99b98c5e7df94239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '697695613d18938e8befa32e14151627') in 0.006737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1338.368253 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e3b0d4d28e3570eb9237b2a8027d38') in 0.007300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.716277 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(2f5c209c7c773cc4aa79b17f6f26d57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(2f5c209c7c773cc4aa79b17f6f26d57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b132731729159f65d2b1242f0fe65a4') in 0.005593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.472154 seconds.
+  path: Assets/Scripts/SpellFactory.cs
+  artifactKey: Guid(3188abd4668f32d418ab1f6a228b22b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SpellFactory.cs using Guid(3188abd4668f32d418ab1f6a228b22b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13661f176bc0fdf48b7cb2edce6e15e2') in 0.027414 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000679 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.717 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1741 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.1 MB.
+System memory in use after: 91.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2308.
+Total: 1.815100 ms (FindLiveObjects: 0.148400 ms CreateObjectMapping: 0.061900 ms MarkObjects: 1.378500 ms  DeleteObjects: 0.225200 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
