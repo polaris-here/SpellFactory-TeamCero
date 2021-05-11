@@ -6,6 +6,6 @@ namespace Magic
 {
     public interface ISpell
 {
-    void Cast();
+    void Cast(GameObject spell);
 }
 }

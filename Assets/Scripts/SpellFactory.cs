@@ -13,9 +13,9 @@ public class SpellFactory : MonoBehaviour
     public void Cast(GameObject Spell)
     {
         GameObject spell = Instantiate(Spell, this.DefaultSpawn.transform.position, Quaternion.identity);
-
         Magic.ISpell spellController = spell.GetComponent<Magic.ISpell>();
-        spellController.Cast();
+        spellController.Cast(spell);
+        Destroy(spell, 5.0f);
     }
     // Start is called before the first frame update
     void Start()
@@ -36,7 +36,7 @@ public class SpellFactory : MonoBehaviour
             Cast(this.Spell2);
         }
 
-        if (Input.GetButton("Jump"))
+        if (Input.GetButtonDown("Jump"))
         {
             Cast(this.Spell3);
         }
